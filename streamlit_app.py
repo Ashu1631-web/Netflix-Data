@@ -9,12 +9,10 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import os
-
-st.write(os.listdir("."))
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-pd.read_csv("Netflix Movies and TV Shows Clustering.csv")
+df = pd.read_csv("Netflix_movies_and_tv_shows_clustering.csv")
 df.head()
 
 df.info()
